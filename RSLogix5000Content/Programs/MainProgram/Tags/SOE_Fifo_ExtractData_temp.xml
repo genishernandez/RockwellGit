@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tag Name="SOE_Fifo_ExtractData_temp" TagType="Base" DataType="SOE_Data" Constant="false" ExternalAccess="Read/Write">
+  <Data Format="L5K"><![CDATA[[[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
+		],0,0,0,0,0,0,[0,5],[0,0],0,0,0]]]></Data>
+  <Data Format="Decorated">
+    <Structure DataType="SOE_Data">
+      <StructureMember Name="Module_Name" DataType="STRING">
+        <DataValueMember Name="LEN" DataType="DINT" Radix="Decimal" Value="0" />
+        <DataValueMember Name="DATA" DataType="STRING" Radix="ASCII"><![CDATA[]]></DataValueMember>
+      </StructureMember>
+      <DataValueMember Name="Module_Number" DataType="DINT" Radix="Decimal" Value="0" />
+      <DataValueMember Name="Fault" DataType="DINT" Radix="Decimal" Value="0" />
+      <DataValueMember Name="Data" DataType="DINT" Radix="Decimal" Value="0" />
+      <DataValueMember Name="NewData" DataType="DINT" Radix="Decimal" Value="0" />
+      <DataValueMember Name="EventOverflow" DataType="DINT" Radix="Decimal" Value="0" />
+      <DataValueMember Name="EventNumber" DataType="DINT" Radix="Decimal" Value="0" />
+      <ArrayMember Name="CSTTimeStamp" DataType="DINT" Dimensions="2" Radix="Decimal">
+        <Element Index="[0]" Value="0" />
+        <Element Index="[1]" Value="5" />
+      </ArrayMember>
+      <ArrayMember Name="UCTTimeStamp" DataType="DINT" Dimensions="2" Radix="Decimal">
+        <Element Index="[0]" Value="0" />
+        <Element Index="[1]" Value="0" />
+      </ArrayMember>
+      <DataValueMember Name="EventPoint" DataType="SINT" Radix="Decimal" Value="0" />
+      <DataValueMember Name="EventData" DataType="BOOL" Value="0" />
+      <DataValueMember Name="ReturningUCTTime" DataType="BOOL" Value="0" />
+      <DataValueMember Name="EventsQueuedCount" DataType="INT" Radix="Decimal" Value="0" />
+    </Structure>
+  </Data>
+</Tag>

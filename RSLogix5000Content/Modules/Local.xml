@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Module Name="Local" CatalogNumber="1756-L71" Vendor="1" ProductType="14" ProductCode="92" Major="38" Minor="11" ParentModule="Local" ParentModPortId="1" Inhibited="false" MajorFault="false">
+  <EKey State="ExactMatch" />
+  <Ports>
+    <Port Id="1" Address="0" Type="ICP" Upstream="false">
+      <Bus Size="10" />
+    </Port>
+  </Ports>
+</Module>
